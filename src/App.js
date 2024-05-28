@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import Header from "./components/BODY/Header";
+import Items from "./components/BODY/Items";
+import Section from "./components/BODY/section";
+import Footer from "./components/BODY/footer";
+import ProviderForm from "./components/Functions/hooks/useForm";
+import Form from "./components/Form/Form";
+import ContextForm from "./components/Context/TheFormContext";
+import SuccessFull from "./components/Form/SuccessFull";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<ContextForm>
+    <ProviderForm>
+      <SuccessFull />
+      <Form/>
+  <Header />
+  <Section />
+  <Items />
+  <Footer />
+    </ProviderForm>
+    </ContextForm>
+
   );
 }
 

@@ -1,0 +1,89 @@
+.FormBack, .theBackofS{
+    background-color: rgba(0,0,0,0.1);
+    height: 100%;
+    display: flex;
+    color: white;
+    position:fixed;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 454;
+}
+.error{
+     font-size: small;
+    color: red;
+    width: 200px;
+}
+.valid {
+    font-size: small;
+    color: green;
+}
+
+
+
+.Form{
+    width: 14em;
+    height:23em;
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    background:linear-gradient(to left,#075a59,#003537);
+   justify-content: center;
+   align-items: center;
+   border: 1px solid rgba(0,0,0,0.4);
+   border-radius: 23px;
+}
+.theform{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.theform input, .theform textarea{
+    margin: 10px;
+    width: 200px;
+    padding: 10px;
+    resize: none;
+}
+.theform textarea{
+   border-radius: 10px;
+   border: 2px solid #edfffc;
+}
+.theform textarea::-webkit-scrollbar{
+    scrollbar-width: none;
+    display: none;
+}
+.FormHeader{
+    display: flex;
+    font-weight: 900;
+    font-size: 0.8em;
+    color: #edfffc;
+    margin-bottom: 10px;
+}
+.theform input:focus, .theform textarea:focus{
+border: 0 solid transparent;
+outline: none;
+}
+
+.SuccessFull {
+    max-width: 950px;
+    height: 250px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    position: relative;
+    color:green;
+    background-color: white;
+}
+.SuccessFull h1 {
+    font-size: 23px;
+}
+.SuccessFull p{
+    font-size: 16px;
+}
+.SuccessFull button{
+    margin-top: 20px;
+}
