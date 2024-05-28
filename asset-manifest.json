@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ITXResto/static/css/main.46094ecf.css",
+    "main.css": "/ITXResto/static/css/main.46e1c40e.css",
     "main.js": "/ITXResto/static/js/main.67e4266a.js",
     "static/media/logo.png": "/ITXResto/static/media/logo.eac95423fa922f32b7b2.png",
     "index.html": "/ITXResto/index.html",
-    "main.46094ecf.css.map": "/ITXResto/static/css/main.46094ecf.css.map",
+    "main.46e1c40e.css.map": "/ITXResto/static/css/main.46e1c40e.css.map",
     "main.67e4266a.js.map": "/ITXResto/static/js/main.67e4266a.js.map"
   },
   "entrypoints": [
-    "static/css/main.46094ecf.css",
+    "static/css/main.46e1c40e.css",
     "static/js/main.67e4266a.js"
   ]
 }
